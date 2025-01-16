@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------
--- Company: center for research and advanced studies of the national polytechnic institute
+-- Company: Center for Research and Advanced Studies of the National Polytechnic Institute
 -- Engineer: M.Sc. Luis Elias Salgado Solano
 -- 
 -- Create Date: 01/10/2025 04:13:08 PM
