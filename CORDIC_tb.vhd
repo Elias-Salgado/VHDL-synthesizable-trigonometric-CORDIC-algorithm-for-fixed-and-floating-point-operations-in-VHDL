@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: Center for Research and Advanced Studies of the National Polytechnic Institute
+-- Engineer: M.Sc. Luis Elias Salgado Solan
 -- 
 -- Create Date: 01/13/2025 05:07:00 PM
 -- Design Name: 
