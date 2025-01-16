@@ -25,15 +25,6 @@ use IEEE.NUMERIC_STD.ALL;
 library IEEE_PROPOSED;
 use IEEE_PROPOSED.FLOAT_PKG.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 entity CORDIC_tb is
 --  Port ( );
 end CORDIC_tb;
@@ -64,7 +55,7 @@ constant h_pi: float32 := to_float(-1.57);
 constant nh_pi: float32 := to_float(-1.57);
 
 begin
-
+-- Call for CORDIC component
 uut: CORDIC port map (
         clk  => clk,
         reset  => reset,
@@ -89,6 +80,7 @@ begin
 	wait for 100 ns;
 end process;
 
+-- Angle generation
 z_process :process
 begin
 	z <= z + frac;
