@@ -50,7 +50,7 @@ type TAB05 is array (0 to 23) of WORD8;
 -- Adjust constant reciprocal 1/1.64676
 constant adj_c : float32 := to_float(0.6072530301926207);
 
--- Table of discrete values for arcttan(2^-n)
+-- Table of discrete values for arctan(2^-n)
 constant arct_v : TAB05 := (
 to_float(0.7853981633974483),to_float(0.4636476090008061),
 to_float(0.2449786631268641),to_float(0.1243549945467614),
