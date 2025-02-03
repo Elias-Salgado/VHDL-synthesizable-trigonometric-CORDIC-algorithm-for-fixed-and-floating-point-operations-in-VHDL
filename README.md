@@ -23,4 +23,6 @@ y_{in}
 \end{bmatrix}
 ```
 \
+![CORDIC_state_machine_page-0001](https://github.com/user-attachments/assets/3deedb2f-ca3f-4672-959a-cb0e386e064e)
+
 ![CORDIC](https://github.com/user-attachments/assets/ddad31ad-317d-449a-bf09-89ee145fdd71)
