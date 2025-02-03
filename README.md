@@ -22,7 +22,19 @@ x_{in}\\
 y_{in}
 \end{bmatrix}
 ```
-\
-![CORDIC_state_machine_page-0001](https://github.com/user-attachments/assets/3deedb2f-ca3f-4672-959a-cb0e386e064e)
 
-![CORDIC](https://github.com/user-attachments/assets/ddad31ad-317d-449a-bf09-89ee145fdd71)
+
+```math
+x\left[j+1\right]= x\left[j\right]-\sigma_{j}2^{-j}y\left[j\right]
+```
+```math
+y\left[j+1\right]= y\left[j\right]+\sigma_{j}2^{-j}x\left[j\right]
+```
+
+<p align="center">
+  <img width="400" src="https://github.com/user-attachments/assets/3deedb2f-ca3f-4672-959a-cb0e386e064e">
+</p>
+
+<p align="center">
+  <img width="840" src="https://github.com/user-attachments/assets/ddad31ad-317d-449a-bf09-89ee145fdd71">
+</p>
