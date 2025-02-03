@@ -153,7 +153,7 @@ PROCESS(clk, reset, count)
  END PROCESS;
 
 
--- Sigma conditionals
+-- CORDIC execution using sigma conditionals
 process(clk, reset, count, en_comp)
 begin
 if reset = '1' or en_comp = '0' then
