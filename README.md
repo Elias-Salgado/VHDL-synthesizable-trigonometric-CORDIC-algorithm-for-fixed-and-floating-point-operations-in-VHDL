@@ -60,7 +60,7 @@ The Mealy state machine used in the floating point description is shown in the f
   <img width="400" src="https://github.com/user-attachments/assets/3deedb2f-ca3f-4672-959a-cb0e386e064e">
 </p>
 
-An analog plot of the outcomes in the test bench for floating point description is shown below.
+An analog plot of the outcomes in the test bench file, for floating point description is shown below.
 
 <p align="center">
   <img width="840" src="https://github.com/user-attachments/assets/ddad31ad-317d-449a-bf09-89ee145fdd71">
