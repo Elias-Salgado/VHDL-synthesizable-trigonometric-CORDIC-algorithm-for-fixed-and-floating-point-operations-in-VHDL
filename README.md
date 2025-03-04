@@ -1,4 +1,4 @@
-# VHDL synthesizable CORDIC algorithm for cos(x) and sin(x) computation-using-fixed-and-floating-point-operations
+# VHDL-synthesizable-CORDIC-algorithm-for-cos(x)-and-sin(x)-computation-using-fixed-and-floating-point-operations
 These descriptions were created for the Coordinate Rotation Digital Computer (CORDIC) execution using fixed point and floating point operations in hardware description language. The two folders contains design and test bench descriptions using fixed point arithmetics and floating point multiplications. These approaches were created as a module which can be integrated in hierarchical designs or used individually for trigonometric computations. The CORDIC algorithm can be executed using micro rotations (using lookup tables) iteratively so that, the $sin(\theta)$ and $cos(\theta)$ can be accurately computed by the minimization of the initial angle. The circular coordinate system in its matrix form is shown in (1):
 ```math
 \begin{bmatrix}
