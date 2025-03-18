@@ -41,7 +41,7 @@ architecture Behavioral of CORDIC is
 subtype WORD is sfixed (1 downto -30);
 type TAB is array (0 to 23) of WORD;
 
--- Table of discrete values for arcttan(2^-n)
+-- Table of discrete values for arctan(2^-n)
 constant arct_v : TAB := (
 to_sfixed (0.7853981633974483, 1, -30),to_sfixed (0.4636476090008061, 1, -30),
 to_sfixed (0.2449786631268641, 1, -30),to_sfixed (0.1243549945467614, 1, -30),
@@ -68,6 +68,7 @@ constant adj_c : sfixed := to_sfixed (0.60725303019262071, 1, -30);
 
 begin
 
+-- Cordic execution process
 process(clk,cnt,en,reset,z,theta_var)
 begin
 if reset = '1' then
