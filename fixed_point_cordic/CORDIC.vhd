@@ -79,7 +79,7 @@ if en = '1' then
 if cnt <= to_unsigned(23,5) then
 data_rdy <= '0';
 if theta_var >= to_sfixed (0, 1, -30) then -- sigma sign criterion (5)
-x_var <= resize(x_var - shift_right(y_var, to_integer(cnt)), 1, -30); -- eq (2) Using right shifs for 2^-n power 
+x_var <= resize(x_var - shift_right(y_var, to_integer(cnt)), 1, -30); -- eq (2) Using right shifs for 2^-n multiplication 
 y_var <= resize(y_var + shift_right(x_var, to_integer(cnt)), 1, -30); -- eq (3) and resizing for rounding the result
 theta_var <= resize(theta_var - arct_v(to_integer(cnt)), 1, -30); -- eq (4)
 else 
